@@ -1,4 +1,12 @@
 package br.com.dio.product.dto;
 
-public class ProductRequest {
+import java.math.BigDecimal;
+
+public record ProductRequest (
+        String name,
+        String description,
+        BigDecimal price
+)
+{
+
 }
