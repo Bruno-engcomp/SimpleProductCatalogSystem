@@ -1,4 +1,7 @@
 package br.com.dio.inventory.DTO;
 
-public class InventoryRequest {
+public record InventoryRequest (
+        Long productId,
+        Integer quantity
+) {
 }

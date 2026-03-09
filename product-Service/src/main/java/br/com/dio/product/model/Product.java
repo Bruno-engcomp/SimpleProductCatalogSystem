@@ -17,7 +17,7 @@ public class Product {
     @Column (nullable = false)
     private String description;
 
-    @Column (nullable = false, precision = 2)
+    @Column (nullable = false, precision = 10, scale = 2)
     private BigDecimal price;
 
     public Product() {
